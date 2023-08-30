@@ -1,0 +1,72 @@
+/*my first css*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffcc;
+}
+
+img {
+    border: solid green 10px;
+}
+
+h1 {
+    border: 10px dotted blue;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+}
+
+cite {
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*
+below are pseudo classes for <a> element
+"LVHA rule" to remember as "LiVe HAppy"
+but later "Focus" came and it became:
+a:link {color: blue;}
+a:visited {color: purple;}
+a:hover {color: red;}
+a:active {color: yellow;} - :active pseudo-class is used on the <a> and <button> elements
+A
+*/
+
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(63, 165, 42);
+    font-size: 1rem;
+}
+
+ul a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: brown;
+    font-size: 2rem;
+}
+
+a:visited {
+    color: green;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+    background-color: black;
+    font-size: 2rem;
+}
+
+a.harvard {
+    color:aqua
+}
