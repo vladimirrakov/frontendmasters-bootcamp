@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+article {
+    width: 30rem;
+    border: 3px solid red;
+    margin: 0 auto;
+}
+
+article:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.first_image {
+    float: left;
+    border: 5px solid red;
+    margin: 0 1rem 0.5rem 0;
+    clear: none;
+}
+
+.second_image {
+    float: right;
+    border: 5px solid red;
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+
+blockquote {
+    font-weight: bold;
+}
