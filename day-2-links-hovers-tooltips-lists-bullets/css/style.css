@@ -40,6 +40,15 @@ a:active {color: yellow;} - :active pseudo-class is used on the <a> and <button>
 A
 */
 
+.peanut_butter_and_jelly_sandwich_list li {
+    list-style: none;
+    padding: 5px 90px;
+    background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/20220607182945/geeksforgeeks.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+}
+
 a:link {
     font-weight: bold;
     text-decoration: none;
@@ -68,5 +77,5 @@ a:hover {
 }
 
 a.harvard {
-    color:aqua
+    color: aqua
 }
